@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fixed background-attachment</title>
+    <style>
+        nav{
+            background-color: red;
+            color: white;
+            background-size: 100px  100px;
+            height: 55px;
+            width: 55px;
+        }
+        #box245{
+            background-color: blue;
+            height: 245px;
+             width:  245px;
+             color: white;
+
+        }
+        #box123{
+            background-image: url(images.jpg);
+            background-repeat: no-repeat;
+            background-size: 140px 148px;
+            height: 15000px;
+            width: 150px;
+            background-color: rgb(10, 255, 173);
+            background-attachment:fixed;
+
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li>
+                home
+        </li>
+         <li>
+               about
+        </li>
+         <li>
+                contact
+        </li>
+        </ul>
+    </nav>
+    <div id="box245">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, deleniti.
+        </div>
+        <div id="box123">
+
+
+        </div>
+    
+    
+</body>
+</html>
